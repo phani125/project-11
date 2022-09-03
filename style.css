@@ -576,9 +576,12 @@ ul > li{
   margin-left:1rem;
   }
   
-  
-  .content-in-1 > .content-h3 > h3, .content-in-one-line > div > h3, .content-in-2 > .content-h3 > h3, .content-in-3 > .content-h3 > h3 {
-  margin-left:0rem;
+  .content-in-2 > .content-h3 > h3{
+  margin-left:1rem;
+  font-size:2rem;
+  }
+  .content-in-1 > .content-h3 > h3, .content-in-one-line > div > h3, .content-in-3 > .content-h3 > h3 {
+  margin-left:1rem;
   font-size:2rem;
   }
   
