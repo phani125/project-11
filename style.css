@@ -555,9 +555,16 @@ ul > li{
 
 @media screen and (min-width:300px) and (max-width:799px) {
 
-  .content-in-1,.content-in-2,.content-in-3{
+  .content-in-2,.content-in-3{
     display: flex;
     flex-direction: column;
+  }
+  .content-in-1{
+  flex-direction: column-reverse;
+  }
+
+  .content-in-3 > .content-h3 {
+   margin-top: 0rem;
   }
   
   .content-in-3-img{
@@ -590,15 +597,20 @@ ul > li{
   }
   
   .content-in-1 > .content-h3 > h3, .content-in-3 > .content-h3 > h3 {
-  margin-left:1rem;
+  margin-left:2rem;
   font-size:2rem;
   }
   
   .content-in-one-line > div > p{
   margin-top: 1rem;
   font-size:1rem;
+  margin-left: -1rem;
   }
-  
+
+  .service-card{
+   margin-left: 0.2rem;
+  }
+
   .service-card > h3{
   font-size:1.5rem;
   }
@@ -609,15 +621,23 @@ ul > li{
     margin-top: 0rem !important;  
    }
   
+  .content-in-2 > .content-h3 > p{
+   margin-left: 1rem !important;   
+  }
+
   .content-h3 > p{
-  margin-left: 1rem !important;  
+  margin-left: 2rem !important;  
   width: 90%;
   }
   
   .content-in-1 > .content-h3 > button, .content-in-2 > .content-h3 > button, .content-in-3 > .content-h3 > button{
-  margin-left:1rem !important;
+  margin-left:2rem !important;
   font-size:0.7rem !important;
   padding: 0.8rem !important;
+  }
+
+  .content-in-2 > .content-h3 > button{
+   margin-left: 1rem !important;
   }
 
   .content-h3{
@@ -681,7 +701,7 @@ ul > li{
 
  .Pack{
   align-items: center;
-  margin-left: 18%;
+  margin-left: 12%;
  }
 
  .content-in-one-line{
@@ -694,5 +714,12 @@ ul > li{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media screen and (min-width:0px) and (max-width:450px) {
+   .Footer-content{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
 }
 
