@@ -701,7 +701,8 @@ ul > li{
 
  .Pack{
   align-items: center;
-  margin-left: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
  }
 
  .content-in-one-line{
