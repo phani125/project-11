@@ -553,11 +553,43 @@ ul > li{
 }
 
 
-@media screen and (min-width:400px) and (max-width:799px) {
+@media screen and (min-width:300px) and (max-width:799px) {
 
   .content-in-1,.content-in-2,.content-in-3{
     display: flex;
     flex-direction: column;
+  }
+  
+  .content-in-3-img{
+  width: 100%;
+  }
+  
+  .content-in-3-img > img{
+  width: 100%;
+  }
+  
+  .content-in-one-line{
+     margin-top: 1rem;
+  }
+  
+  .content-in-2-img{
+  margin-left:1rem;
+  }
+  
+  
+  .content-in-1 > .content-h3 > h3, .content-in-2 > .content-h3 > h3{
+  margin-left:1rem;
+  font-size:1.5rem;
+  margin-rigth:1rem;
+  }
+  
+  .content-in-one-line > div > p{
+  margin-top: 1rem;
+  }
+  
+  p{
+  margin-left: 1%;
+  margin-right: 1%;  
   }
 
   .content-h3{
