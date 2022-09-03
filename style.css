@@ -579,8 +579,17 @@ ul > li{
   .content-in-2 > .content-h3 > h3{
   margin-left:1rem;
   font-size:2rem;
+  width: 100%;
   }
-  .content-in-1 > .content-h3 > h3, .content-in-one-line > div > h3, .content-in-3 > .content-h3 > h3 {
+  
+  .content-in-one-line > div > h3{
+  margin-left:-1rem;
+  font-size:2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  }
+  
+  .content-in-1 > .content-h3 > h3, .content-in-3 > .content-h3 > h3 {
   margin-left:1rem;
   font-size:2rem;
   }
@@ -593,6 +602,12 @@ ul > li{
   .service-card > h3{
   font-size:1.5rem;
   }
+  .content-in-2 {
+    margin-top: 1rem;
+   }
+  .content-in-3 {
+    margin-top: 0rem !important;  
+   }
   
   .content-h3 > p{
   margin-left: 1rem !important;  
