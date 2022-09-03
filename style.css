@@ -565,7 +565,7 @@ ul > li{
   }
   
   .content-in-3-img > img{
-  width: 100%;
+  width: 90% !important;
   }
   
   .content-in-one-line{
@@ -578,22 +578,25 @@ ul > li{
   
   
   .content-in-1 > .content-h3 > h3, .content-in-one-line > div > h3, .content-in-2 > .content-h3 > h3, .content-in-3 > .content-h3 > h3 {
-  margin-left:1rem;
-  font-size:1.5rem;
+  
+  font-size:2rem;
   margin-rigth:1rem;
   }
   
   .content-in-one-line > div > p{
   margin-top: 1rem;
-  font-size:0.9rem;
+  font-size:1rem;
   }
   
   .content-h3 > p{
   margin-left: 1rem !important;  
+  width: 90%;
   }
   
   button{
-  margin-left:1rem;
+  margin-left:1rem !important;
+  font-size:0.7rem !important;
+  padding: 0.8rem !important;
   }
 
   .content-h3{
