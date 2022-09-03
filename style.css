@@ -578,9 +578,8 @@ ul > li{
   
   
   .content-in-1 > .content-h3 > h3, .content-in-one-line > div > h3, .content-in-2 > .content-h3 > h3, .content-in-3 > .content-h3 > h3 {
-  
+  margin-left:0rem;
   font-size:2rem;
-  margin-rigth:1rem;
   }
   
   .content-in-one-line > div > p{
@@ -588,12 +587,16 @@ ul > li{
   font-size:1rem;
   }
   
+  .service-card > h3{
+  font-size:1.5rem;
+  }
+  
   .content-h3 > p{
   margin-left: 1rem !important;  
   width: 90%;
   }
   
-  button{
+  .content-in-1 > .content-h3 > button, .content-in-2 > .content-h3 > button, .content-in-3 > .content-h3 > button{
   margin-left:1rem !important;
   font-size:0.7rem !important;
   padding: 0.8rem !important;
