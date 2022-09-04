@@ -12,7 +12,7 @@
 ## Built with:
 
 - HTML
-- Project was build using Wrapper, Flexbox and Grid layout
+- Project was build using Flexbox and Grid layout
 
 
 ## Time taken:
